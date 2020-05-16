@@ -1,11 +1,13 @@
 import React from "react";
+import Fullpage from "./components/Fullpage";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <>
+    <div>
       <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
+      <Fullpage></Fullpage>
+    </div>
   );
 };
 export default App;
