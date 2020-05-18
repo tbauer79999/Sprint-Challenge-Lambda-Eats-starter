@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,45 +14,220 @@ code {
 }
 
 
-.page {
+
+.size {
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 70%;
-  height: 1000px;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
   border: 1px solid red;
 }
 
-.imgPizza {
+
+
+.sauce {
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
+  height: 150px;
   width: 100%;
-  height: 250px; 
-  background-image: url('./components/pizzaimg.jpg');
-  background-size: cover;
+  /* background-image: url(./components/sauce.jpg); */
+  background-size: cover ;
+  font-weight: bolder;
+  
 }
 
-.buildOwnPizza {
-  height: 350px;
-  width: 100%;
-border: 1px solid black; 
-}
 
-
-.choiceSauce {
+.toppings {
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
   height: 450px;
   width: 100%;
-  border: 1px solid black;
+  font-weight: bolder;
+  
 }
 
-.addToppings {
-  height: 400px;
+.notes {
+  height: 200px;
   width: 100%;
-  border: 1px solid black;
+}
+.notesBox {
+  display: flex;
+  justify-content: center;
 }
 
-h3 {
+.btnbtn {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+  justify-content: center;
   background-color: lightgray;
 }
 
+h4 {
+  color: white;
+}
 .spacer {
-  height: 50px;
+  height: 40px;
+}
+
+.formPage {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+  height: 1400px;
+}
+
+.form1 {
+
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 1300px;
+}
+.head {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+
+}
+
+.headerimage {
+  height: 200px;
+  width: 100%;
+  background-image: url(./components/pizzaimg.jpg);
+  background-size: cover ;
+}
+
+.newMenu {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+.frontPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+
+.bigImage {
+  height: 500px;
+  width: 900px;
+  background-image: url(./components/pizzaimg.jpg);
+  background-size: cover ;
+}
+
+.pizzaStrip {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 200px;
+
+}
+
+
+.smallimg {
+  width: 300px;
+  height: 200px;
+
+}
+
+.smallimg1 {
+  display: flex;
+  width: 300px;
+  height: 200px;
+ 
+  background-image: url(./components/pizza1.jpg);
+  background-size: cover ;
+}
+
+.smallimg2 {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  background-image: url(./components/pizza2.jpg);
+  background-size: cover ;
+  }
+
+
+  .newMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .buttongroup {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+
+  .first {
+
+    width: 33%;
+    background-image: url(./components/pizza2.jpg);
+  background-size: cover ;
+  }
+
+  .second {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 33%;
+    background-color: lightgray;
+  }
+
+  .third {
+    border: 1px solid yellow;
+    width: 33%;
+    background-image: url(./components/pizza2.jpg);
+  background-size: cover ;
+  }
+
+  
+
+  .firsttopping {
+
+    width: 33%;
+    background-image: url(./components/toppings.jpg);
+  background-size: cover;
+  }
+
+  .toppingForm {
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    width: 33%;
+    background-color: lightgray;
+  }
+
+  .thirdtopping {
+    
+    width: 33%;
+    background-image: url(./components/toppings.jpg);
+  background-size: cover;
+  }
+
+form {
+    align-content: center;
+  }
+
+.results {
+  color: red;
 }
